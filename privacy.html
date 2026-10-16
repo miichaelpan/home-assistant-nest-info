@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="How the personal Home Assistant Nest integration accesses, uses and retains authorized thermostat and home information.">
+  <meta name="referrer" content="no-referrer">
+  <title>Privacy policy — Home Assistant Nest</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header wrap">
+    <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"></span>Home Assistant Nest</a>
+    <nav aria-label="Main navigation">
+      <a href="index.html">About</a>
+      <a href="privacy.html" aria-current="page">Privacy &amp; data</a>
+    </nav>
+  </header>
+
+  <main id="main" class="wrap policy">
+    <header class="policy-heading">
+      <p class="eyebrow">Home Assistant Nest</p>
+      <h1>Privacy policy</h1>
+      <p class="policy-date">Last updated <time datetime="2026-10-16">October 16, 2026</time></p>
+      <p class="lede">This personal integration connects the account owner's selected Google Nest thermostat to their own Home Assistant installation. This page describes the information it accesses and how that information may be used and retained.</p>
+    </header>
+
+    <section aria-labelledby="purpose-title">
+      <h2 id="purpose-title">1. Information accessed and why</h2>
+      <p>With the account owner's Google authorization, Home Assistant Nest accesses selected thermostat information, including temperature, humidity, operating state, supported settings and setpoints. It uses this information to display household conditions and carry out authorized thermostat controls.</p>
+      <p>Access can also include permitted home information, such as home name, room names and ZIP code, to identify and organize the selected device. Google Pub/Sub topics and subscriptions are used to receive device updates. The available information and controls depend on the selected device and permissions granted.</p>
+      <p>The integration uses Google's Smart Device Management and Pub/Sub permissions. The account owner chooses which supported device to share during Google's authorization process.</p>
+    </section>
+
+    <section aria-labelledby="processing-title">
+      <h2 id="processing-title">2. Processing and storage</h2>
+      <p>Google processes API requests and event traffic through its services. The owner's Home Assistant installation processes the resulting device information, readings and settings, and sends authorized control requests to Google.</p>
+      <p>Home Assistant stores authorization credentials in its configuration. Device information and readings may be retained in configured Home Assistant history, logs and backups. These records can include temperature, humidity, operating state and settings over time. Retention follows the owner's Home Assistant configuration, backup schedule and storage controls.</p>
+    </section>
+
+    <section aria-labelledby="sharing-title">
+      <h2 id="sharing-title">3. Connected services and access</h2>
+      <p>Information may be available through owner-configured Home Assistant dashboards, automations, integrations and connected services, including assistants. Those connections may allow services or authorized users to read device information or request supported controls, depending on the access the owner enables.</p>
+      <p>Backups may be copied to storage locations or services selected by the owner. Additional recipients and destinations depend on the owner's configuration and the respective services' handling of that information. These configured connections determine where information is processed and retained.</p>
+    </section>
+
+    <section aria-labelledby="protection-title">
+      <h2 id="protection-title">4. Protection of information</h2>
+      <p>Access to the installation and its stored records depends on the owner's Home Assistant authentication, network access, account permissions and storage controls. Google and any connected providers apply their own service controls.</p>
+      <p>The owner is responsible for reviewing connected services, limiting access and maintaining appropriate protection for credentials and backups. Encryption depends on the configuration of each connection, storage location and backup destination.</p>
+    </section>
+
+    <section aria-labelledby="revocation-title">
+      <h2 id="revocation-title">5. Revocation and deletion</h2>
+      <p>The owner can revoke Home Assistant Nest in their Google Account's third-party connections and remove the Google Nest integration from Home Assistant. Revocation stops future access under that authorization; it does not automatically delete information already retained in Home Assistant history, logs, backups or connected services.</p>
+      <p>To remove retained records, use the deletion and retention controls of Home Assistant, the relevant backup storage and any connected services. Google's retained records are governed by Google's own controls and policies. Copies in backups may remain until those backups are deleted or expire.</p>
+    </section>
+
+    <section aria-labelledby="website-title">
+      <h2 id="website-title">6. These informational pages</h2>
+      <p>These static pages contain no forms, scripts, analytics or external fonts. They do not ask visitors to enter account credentials or thermostat information. The website's hosting provider may process ordinary web-request information, such as an IP address and browser details, under its own policies.</p>
+    </section>
+
+    <section aria-labelledby="contact-title">
+      <h2 id="contact-title">7. Contact and updates</h2>
+      <p>For questions about this integration or retained information, contact the administrator of the Home Assistant installation using the support contact provided on the Google OAuth consent screen.</p>
+      <p>The administrator should update this page when data access, uses, connected services or retention practices change. This is an independently configured personal integration and is not affiliated with, endorsed by or operated by Google.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer wrap">
+    <p>Home Assistant Nest · Personal integration</p>
+    <a href="index.html">About the integration</a>
+  </footer>
+</body>
+</html>
