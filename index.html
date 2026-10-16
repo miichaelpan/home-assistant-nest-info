@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="About Home Assistant Nest, a personal integration for an account owner's selected Nest thermostat and Home Assistant installation.">
+  <meta name="referrer" content="no-referrer">
+  <title>Home Assistant Nest — Personal thermostat integration</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header wrap">
+    <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"></span>Home Assistant Nest</a>
+    <nav aria-label="Main navigation">
+      <a href="index.html" aria-current="page">About</a>
+      <a href="privacy.html">Privacy &amp; data</a>
+    </nav>
+  </header>
+
+  <main id="main" class="wrap">
+    <section class="hero" aria-labelledby="page-title">
+      <p class="eyebrow">A personal household integration</p>
+      <h1 id="page-title">Your thermostat.<br>Your Home Assistant.</h1>
+      <p class="lede">Home Assistant Nest connects the account owner's selected Google Nest thermostat to their own Home Assistant installation, using Google's authorized device APIs.</p>
+      <a class="button" href="privacy.html">Read the privacy policy <span aria-hidden="true">↗</span></a>
+    </section>
+
+    <section class="feature-grid" aria-label="How the integration works">
+      <article class="card">
+        <p class="card-number" aria-hidden="true">01</p>
+        <h2>See household conditions</h2>
+        <p>View the selected thermostat's temperature, humidity, operating state and supported settings in Home Assistant.</p>
+      </article>
+      <article class="card">
+        <p class="card-number" aria-hidden="true">02</p>
+        <h2>Use supported controls</h2>
+        <p>Allow the owner to adjust supported thermostat settings through the authorized Home Assistant installation.</p>
+      </article>
+      <article class="card">
+        <p class="card-number" aria-hidden="true">03</p>
+        <h2>Receive device updates</h2>
+        <p>Use Google Pub/Sub topics and subscriptions to deliver device updates to Home Assistant.</p>
+      </article>
+    </section>
+
+    <section class="detail-block" aria-labelledby="access-title">
+      <div>
+        <p class="eyebrow">Access with the owner's permission</p>
+        <h2 id="access-title">A clear purpose for each permission.</h2>
+      </div>
+      <div class="detail-copy">
+        <p>Google authorization covers the thermostat the owner selects, its readings and settings, permitted home information such as home and room names and ZIP code, and Google Pub/Sub access for device updates.</p>
+        <p>Google processes API and event traffic. Home Assistant processes the readings and controls, and may retain information in configured history, logs and backups. Owner-configured connected services, including assistants, may also receive or access information under the owner's configuration.</p>
+        <p>The <a href="privacy.html">privacy policy</a> explains processing, storage, connected services and how to revoke access.</p>
+      </div>
+    </section>
+
+    <aside class="notice" aria-labelledby="personal-title">
+      <h2 id="personal-title">For one owner's household</h2>
+      <p>This is a personal integration, not a public thermostat-control service. It is independently configured and is not affiliated with, endorsed by or operated by Google. Google and Nest are trademarks of their respective owner.</p>
+      <p>For questions, contact the Home Assistant installation's administrator using the support contact provided on the Google OAuth consent screen.</p>
+    </aside>
+  </main>
+
+  <footer class="site-footer wrap">
+    <p>Home Assistant Nest · Personal integration</p>
+    <a href="privacy.html">Privacy policy</a>
+  </footer>
+</body>
+</html>
